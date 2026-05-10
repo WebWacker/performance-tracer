@@ -1,0 +1,50 @@
+* {
+ margin: 0;
+}
+body {
+  background: #250944;
+}
+.container {
+  width: 450px;
+  height: 600px;
+  border: 5px solid #000;
+  background: #6300CE;
+  margin: 20px auto;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+table {
+  width: 400px;
+  border-radius: 50px;
+  text-align: center;
+  background: transparent;
+}
+table th {
+  font-size: 20px;
+}
+table td {
+  font-size: 18px;
+  font-weight: bold;
+}
+table td button {
+  font-size: 23px;
+}
+.btn{
+  width: 70px;
+  height: 30px;
+  background: dimgray;
+  border-radius: 5px;
+  border: 2px solid #000;
+  box-shadow: 0 0 15px #0ff;
+}
+.btn:hover {
+  background: #919191;
+}
+h1 {
+  font-size: 38px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+  }
